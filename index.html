@@ -1,98 +1,51 @@
 <html>
 <head>
 <style>
-.leftcolumn {position:absolute;left:50}
-.middlecolumn{position:absolute;left:200}
-.rightcolumn:{position:absolute;left:400}
+.leftcolumn {position:absolute;left:50;text-align:left}
+.middlecolumn{position:absolute;left:200;text-align:middle}
+.rightcolumn:{position:absolute;left:400;text-align:right}
+
+
+
+      .videos {
+            -webkit-column-count: 4;
+            -moz-column-count: 4;
+            column-count: 4;
+            padding-top: 35px;
+            text-align: justify;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 40px;
+            color: green;
+        }
+
+        .subtitle {
+            text-align: center;
+        }
 	
 </style>
 	
 </head>
-<body><div class=".leftcolumn"><table><th>Live music Archive</th><tr><td><img src="20240516_M80sCheckerboard.jpg"</td></tr></table></div>
-<div>
-<span>
-	<table>
-		<tr>
-			<td><video width="320" height="240" controls>
-			<source src="Breathless-middlesnippet.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-			</video></td>
-		</tr>
-	<tfoot>Breathless by X</tfoot>
-	</table>
-</span>
-<span>
-<table>
-	<tr>
-		<td><video width="320" height="240" controls>
-		<source src="20250512_RedRooster-SaraMix1.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-		</video></td>
-	</tr>
-<tfoot>Mix Provided by Sarafina Redwine</tfoot>
-</table>
-</span>
-
-<span>
-	<table>
-		<tr>
-			<td><video width="320" height="240" controls>
-			<source src="HeadOverHeels-midsnip_audioWithPictureAndfThumbnail2.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-			</video></td>
-		</tr>
-	<tfoot>Head Over Heels by The Go-Gos</tfoot>
-	</table>
-</span>
-  	
-<span>
-	<table>
-		<tr>
-			<td><video width="320" height="240" controls>
-			<source src="DontYouWantMe-middlesnippet.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-			</video></td>
-		</tr>
-	<tfoot>Don't You Want Me by The Human League</tfoot>
-	</table>
-</span>
-</div>
-
-<divclass=".midcolumn">
-<span>
-<table>
-	<tr>
-		<td><video width="320" height="240" controls>
-		<source src="Overkill-middlesnippet.mp4" type="video/mp4">
-		 Your browser does not support the video tag.
-		</video></td>
-	</tr>
-<tfoot>Overkill By Men At Work</tfoot>
-</table>
-</span>
-  	
-<span>
-<table>
-	<tr>
-		<td><video width="320" height="240" controls>
-		<source src="SafetyDance-Intro.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-		</video></td>
-	</tr>
-<tfoot>Safety Dance by Men Without Hats</tfoot>
-</table>
-</span>
-  	
-<span>
-<table>
-	<tr>
-		<td><video width="320" height="240" controls>
-		<source src="We'reNOtGonnaTakeItOutro.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-		</video></td>
-	</tr>
-<tfoot>We're Not Gonna Take It by Twisted Sister</tfoot>
-</table>
-</span>
-</div>
-</body></html>
+<body>
+    <div class="title">M80s Oceanside Live music Archive</div>
+ 	<div class="subtitle"><img src="20240516_M80sCheckerboard.jpg"></div>
+	 <div class="videos">
+		<video width="320" height="240" controls><source src="Breathless-middlesnippet.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />Breathless by X<br />
+		<video width="320" height="240" controls><source src="20250512_RedRooster-SaraMix1.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />Mix Provided by Sarafina Redwine<br />
+		<video width="320" height="240" controls><source src="HeadOverHeels-midsnip_audioWithPictureAndfThumbnail2.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />Head Over Heels by The Go-Gos<br />
+		<video width="320" height="240" controls><source src="DontYouWantMe-middlesnippet.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />Don't You Want Me by The Human League<br />
+		<video width="320" height="240" controls><source src="Overkill-middlesnippet.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />Overkill By Men At Work<br />
+		<video width="320" height="240" controls><source src="SafetyDance-Intro.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />Safety Dance by Men Without Hats<br />
+		<video width="320" height="240" controls><source src="We'reNOtGonnaTakeItOutro.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+		<br />We're Not Gonna Take It by Twisted Sister<br />
+	</div>
+</body>
+</html>
